@@ -1,3 +1,3 @@
-# blog template
+# Portfolio Page
 
-![template image](/image/template.png)
+ASP.NET Core Razor page로 제작함
