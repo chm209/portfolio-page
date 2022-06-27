@@ -1,0 +1,14 @@
+.main_container .error_container {
+    padding-top: 200px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+
+.error_container h1 {
+    font-size: 5em;
+    line-height: 1;
+}
+
+.error_container:hover {
+    cursor: default;
+}

@@ -1,0 +1,22 @@
+.post_container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#post_title {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+#post_date {
+    font-size: 14px;
+    font-weight: 300;
+    color: #5b5b5b;
+    margin: 40px 0 0 0;
+}
+
+#block {
+    margin-bottom: 40px;
+}

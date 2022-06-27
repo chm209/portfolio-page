@@ -1,0 +1,85 @@
+/* 스크롤바 없애기 */
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+/* 스타일 초기화 */
+a:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+a, a:active, a:after {
+    text-decoration: none;
+    cursor: default;
+    color: #333333;
+}
+
+ul,li {
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: inline;
+}
+
+/* 스타일 */
+html, body {
+    height:  100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.nav_container {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px 15%;
+    align-items : center;
+}
+
+.nav_container #title_font:hover, .nav_container .nav_font:hover {
+    cursor: pointer;
+}
+
+.nav_container #title_font {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.nav_container .nav_font {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.main_container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footer_container {
+    width: 100%;
+    background-color: black;
+    color: #eeeeee;
+}
+
+.footer_container footer {
+    max-width: 1000px;
+    padding: 25px 15%;
+    margin: 0 auto;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer a {
+    color: #eeeeee;
+}
